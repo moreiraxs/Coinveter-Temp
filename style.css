@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/*ATRIBUTOS GLOBAIS*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: rgb(70, 142, 236);
+  width: 100vw;
+  height: 125vh;
+  font-weight: 500;
+
+}
+
+/* HEADER */
+
+header{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+}
+
+
+/* TRABALAHNDO DENTRO DO MAIN */
+
+.sesonform{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 35px;
+
+}
+
+form{
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+
+
+/*TRABALHANDO COM ESCALAS E TEMPERATURA */
+
+.esc{
+  margin-bottom: 35px;
+}
+.sesonform label{
+  color: #fdfdfd;;
+  font-weight: 800;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 900px;
+
+}
+.sesonform select, input{
+  width: 600px;
+  height: 45px;
+  border-radius: 5px;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363) ;
+  cursor: pointer;
+  
+
+}
+
+.temperatura{
+  cursor: text;
+}
+
+option{
+  color: black;
+  background: lightgray;
+  
+}
+
+/* TRABALHANDO COM BUTTON */
+
+button{
+  width: 600px;
+  height: 45px;
+  background: #E7E7E7;
+  margin-top: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500px;
+}
+
+button:hover{
+  background: #fff;
+}
+
+/* TRABALHANDO COM RESUL */
+.result{
+  display: flex;
+  justify-content: center;
+}
+.result-container{
+  background: #fff;
+  width: 600px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 50px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 450px;
+  padding: 5px;
+
+ 
+}
+
+@media(max-width: 620px){
+ 
+  body{
+    
+    width: 90vw;
+    height: 115vh;
+    
+  
+  }
+
+  header h1{
+    font-size:25px;
+    width:400px;
+    display: flex;
+    justify-content: center;
+    
+  
+  }
+  .sesonform label{
+    color: #fdfdfd;
+    width: 50px;
+    
+  
+  }
+  .sesonform select, input{
+    width: 400px;
+    height: 45px;
+   
+    
+  
+  }
+  button{
+    width: 300px;
+    height: 45px;
+  
+  }
+  .result-container{
+    width:450px;
+    height:45px;
+    display:flex;
+    align-items: center;
+  }
+}
+@media(max-width: 520px){
+  body{
+    
+    width: 90vw;
+    height: 115vh;
+    
+  
+  }
+
+  header h1{
+    font-size:25px;
+    width:400px;
+    display: flex;
+    justify-content: center;
+    
+  
+  }
+  .sesonform label{
+    color: #fdfdfd;
+    width: 50px;
+    
+  
+  }
+  .sesonform select, input{
+    width: 300px;
+    height: 45px;
+   
+    
+  
+  }
+  button{
+    width: 200px;
+    height: 45px;
+  
+  }
+  .result-container{
+  width: 300px;
+  height: 40px;
+  
+   
+  }
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Temp coinveter</title>
+  </head>
+  <body>
+    <header>
+      <h1>Conversor de temperatura</h1>
+    </header>
+
+    <main>
+      <section class="sesonform">
+        <form action="" id="form">
+          <div class="esc escala1">
+            <label for="escala1">Sua escala</label>
+            <select name="escala1" id="escala1">
+              <option value="Celsius" selected>Celsius</option>
+              <option value="Farenheint">Farenheint</option>
+            </select>
+          </div>
+
+          <div class="esc temp">
+            <label for="temperatura"> Temperatura</label>
+            <input type="number" class="temperatura" value="" />
+          </div>
+
+          <div class="esc escala2">
+            <label for="escala2">Sua escala</label>
+            <select name="escala2" id="escala2">
+              <option value="Celsius">Celsius</option>
+              <option value="Farenheint" selected>Farenheint</option>
+            </select>
+          </div>
+
+          <button type="submit">Converter</button>
+        </form>
+      </section>
+
+      <div class="result"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
