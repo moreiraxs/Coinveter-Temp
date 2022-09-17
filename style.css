@@ -62,8 +62,8 @@ form{
   width: 100%;
   font-size: 20px;
   font-weight: 900px;
-
 }
+
 .sesonform select, input{
   width: 600px;
   height: 45px;
@@ -79,6 +79,7 @@ form{
 
 .temperatura{
   cursor: text;
+  padding-left: 10px
 }
 
 option{
